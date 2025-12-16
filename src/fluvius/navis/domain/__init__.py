@@ -5,6 +5,7 @@ from .aggregate import WorkflowAggregate
 from .query import WorkflowQueryManager
 
 from . import command, datadef
+from .event import WorkflowEvent
 
 __all__ = [
     "WorkflowDomain",
@@ -12,5 +13,7 @@ __all__ = [
     "WorkflowDataManager",
     "WorkflowQueryManager",
     "command",
-    "datadef"
+    "datadef",
+    "WorkflowEvent",
+    
 ]
